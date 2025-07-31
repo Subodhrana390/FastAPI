@@ -62,16 +62,11 @@ uvicorn main:app --reload
 ```
 
 7. Access the Interactive API Docs
-Swagger UI: http://127.0.0.1:8000/docs 📘
-ReDoc: http://127.0.0.1:8000/redoc 📙
 
-📌 Example Endpoint
-GET /hello
-Returns:
+      Swagger UI: http://127.0.0.1:8000/docs
 
-{
-  "message": "Hello, FastAPI!"
-}
+      ReDoc: http://127.0.0.1:8000/redoc
+
 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
@@ -85,7 +80,6 @@ See the LICENSE file for details.
 🌟 Acknowledgments
 Thanks to the creators of FastAPI and the awesome open-source community! 🙌
 
-📫 Contact
 Created with ❤️ by Subodh Rana
 
 Feel free to reach out for collaboration or feedback!
