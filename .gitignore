@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual env
+venv/
+.env
+.env.*
+
+# Databases
+*.sqlite3
+*.db
+
+# Pytest / coverage
+.cache/
+.pytest_cache/
+.coverage*
+
+# Alembic
+alembic/versions/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+
+# OS
+.DS_Store
