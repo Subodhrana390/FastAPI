@@ -1,4 +1,5 @@
-from app.db.session import SessionLocal
+from app.db.session import SessionLocal, engine
+
 
 def get_db():
     db = SessionLocal()
@@ -6,3 +7,6 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+__all__ = ['get_db', "engine"]
