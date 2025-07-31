@@ -8,3 +8,4 @@ if "render.com" in DATABASE_URL and "?sslmode=" not in DATABASE_URL:
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
